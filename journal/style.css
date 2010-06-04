@@ -1,0 +1,38 @@
+/*
+Theme Name: Real Minimal
+Theme URI: http://jueseph.com/themes/realminimal
+Description: Much more minimalist than "Minimalism"
+Version: 1.0
+Author: Jue Wang
+Author URI: http://jueseph.com
+Tags: minimalist, one column
+
+*/
+
+/* YUI 2 Reset (http://developer.yahoo.com/yui/reset/) */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td 
+{margin:0;padding:0;}
+table {border-collapse:collapse;	border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;}
+
+/* layout */
+.bd {margin: 40px 0 60px 60px; width:700px;}
+.nav {overflow:hidden;}
+.entry {margin-bottom:1.5em; overflow:hidden;}
+.entry-hd {float:left; width:90px;margin-right:10px;}
+.entry-bd {float:left; width:600px;}
+.entry-hd .showonmouseover {visibility:hidden;}
+.entry-hd:hover .showonmouseover {visibility:visible;}
+.prev-link {float:left;}
+.next-link {float:right;}
+
+/* typography */
+body {font-family: Georgia, serif; font-size: 14px; color:#333;}
+p, h2 {margin-bottom:0.5em; line-height:1.6em;}
+h2 {font-weight:bold;}
